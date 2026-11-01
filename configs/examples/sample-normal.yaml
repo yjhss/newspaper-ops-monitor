@@ -1,0 +1,27 @@
+id: sample-normal
+name: Sample Normal Newspaper
+
+enabled: true
+
+layout:
+  type: NORMAL
+
+ingress:
+  type: WEBHARD_PDF
+
+workflow:
+  rip: MANUAL
+  merge: MANUAL
+  transfer: FILETRANS
+
+paths:
+  PDF: "./test-env/webhard/sample-normal/PDF"
+  TIFF: "./test-env/webhard/sample-normal/TIFF"
+  CTP: "./test-env/webhard/sample-normal/CTP"
+
+merge:
+  directory: "./test-env/merge/sample-normal"
+  runtime_config: "sample.txt"
+
+reissue:
+  mode: INDEPENDENT

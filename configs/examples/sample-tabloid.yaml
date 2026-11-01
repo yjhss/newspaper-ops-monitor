@@ -1,0 +1,27 @@
+id: sample-tabloid
+name: Sample Tabloid Newspaper
+
+enabled: true
+
+layout:
+  type: TABLOID
+
+ingress:
+  type: WEBHARD_PDF
+
+workflow:
+  rip: MANUAL
+  merge: MANUAL
+  transfer: FILETRANS
+
+paths:
+  PDF: "./test-env/webhard/sample-tabloid/PDF"
+  TIFF: "./test-env/webhard/sample-tabloid/TIFF"
+  CTP: "./test-env/webhard/sample-tabloid/CTP"
+
+merge:
+  directory: "./test-env/merge/sample-tabloid"
+  runtime_config: "sample.txt"
+
+reissue:
+  mode: PAIRED
