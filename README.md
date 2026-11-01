@@ -25,3 +25,9 @@
 | `chore` | 설정, 환경, 의존성, 템플릿 | `chore: add GitHub templates (#7)` |
 | `ci` | CI/CD 설정 | `ci: add GitHub Actions workflow (#8)` |
 | `perf` | 성능 개선 | `perf: reduce repeated directory scans (#9)` |
+
+### Issue
+`[Type] Short description`
+
+### PR
+`[Type] Short description (#issue-number)`
