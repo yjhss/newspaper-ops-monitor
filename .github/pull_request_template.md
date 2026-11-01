@@ -1,31 +1,24 @@
-## 관련 이슈
+## Related Issue
 
 Closes #
 
-## 변경 내용
+## Changes
 
 - 
 - 
 - 
 
-## 구현 내용
+## Implementation
 
-
-## 테스트
+## Test
 
 - [ ] `go fmt ./...`
 - [ ] `go vet ./...`
 - [ ] `go test ./...`
-- [ ] 로컬 실행 확인
-- [ ] 관련 기능 수동 테스트
+- [ ] Local execution verified
+- [ ] Manual test completed
 
-### 테스트 방법
-
-1. 
-2. 
-3. 
-
-## 영향 범위
+## Scope
 
 - [ ] Domain
 - [ ] Application
@@ -35,4 +28,13 @@ Closes #
 - [ ] Monitoring
 - [ ] Documentation
 
-## 추가 사항
+## Checklist
+
+- [ ] No real company IP addresses are included.
+- [ ] No credentials or sensitive information are included.
+- [ ] No production-only paths or media configurations are committed.
+- [ ] `.env`, `configs/media/`, and local runtime files are excluded.
+- [ ] Read-only monitoring principles are preserved.
+- [ ] No unnecessary files are included.
+
+## Notes

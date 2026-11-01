@@ -1,21 +1,31 @@
 ---
 name: Feature
-about: 새로운 기능 구현
+about: Implement a new feature
 title: "[Feat] "
 labels: feature
-assignees: ""
+assignees: "yjhss"
 ---
 
-## 목적
+## Purpose
 
+## Tasks
 
-## 작업 내용
+- [ ]
+- [ ]
+- [ ]
 
-- [ ] 
-- [ ] 
-- [ ] 
+## Acceptance Criteria
 
-## 테스트
+- [ ]
+- [ ]
+- [ ]
 
+## Test Scenario
 
-## 참고
+1.
+2.
+3.
+
+## Branch
+
+`feat/<description>-<issue-number>`

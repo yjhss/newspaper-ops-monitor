@@ -1,22 +1,27 @@
 ---
 name: Refactor
-about: 코드 구조 개선
+about: Improve code structure without changing behavior
 title: "[Refactor] "
 labels: refactor
-assignees: ""
+assignees: "yjhss"
 ---
 
-## 대상
+## Target
 
+## Current Problem
 
-## 문제점
+## Refactoring Plan
 
+- [ ]
+- [ ]
+- [ ]
 
-## 개선 방향
+## Acceptance Criteria
 
+- [ ] Existing behavior remains unchanged.
+- [ ] Tests pass successfully.
+- [ ] Dependency direction is preserved.
 
-## 작업 내용
+## Branch
 
-- [ ] 
-- [ ] 
-- [ ] 
+`refactor/<description>-<issue-number>`

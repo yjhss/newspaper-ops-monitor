@@ -1,36 +1,35 @@
 ---
 name: Bug
-about: 버그 수정
+about: Report or fix a bug
 title: "[Fix] "
 labels: bug
-assignees: ""
+assignees: "yjhss"
 ---
 
-## 문제
+## Problem
 
+## Steps to Reproduce
 
-## 재현 방법
+1.
+2.
+3.
 
-1. 
-2. 
-3. 
+## Expected Behavior
 
-## 기대 동작
+## Actual Behavior
 
+## Tasks
 
-## 실제 동작
+- [ ]
+- [ ]
+- [ ]
 
+## Acceptance Criteria
 
-## 원인
+- [ ]
+- [ ]
+- [ ]
 
+## Branch
 
-## 수정 내용
-
-- [ ] 
-- [ ] 
-
-## 검증
-
-- [ ] 문제 재현 확인
-- [ ] 수정 후 정상 동작 확인
-- [ ] 기존 기능 회귀 테스트
+`fix/<description>-<issue-number>`
